@@ -3,8 +3,6 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<img src="Running-LLM-Models-Locally-For-Free-With-Ollama.png" width="30%" style="position: relative; top: 0; right: 0;" alt="Project Logo"/>
-
 # RUNNING-LLM-MODELS-LOCALLY-FOR-FREE-WITH-OLLAMA
 
 <em>Unleash Powerful AI, Locally and Cost-Effectively</em>
@@ -15,7 +13,7 @@
 <img src="https://img.shields.io/github/languages/top/muhammadhussain-2009/Running-LLM-Models-Locally-For-Free-With-Ollama?style=flat&color=0080ff" alt="repo-top-language">
 <img src="https://img.shields.io/github/languages/count/muhammadhussain-2009/Running-LLM-Models-Locally-For-Free-With-Ollama?style=flat&color=0080ff" alt="repo-language-count">
 
-<em>Built with the tools and technologies:</em>
+<em>Built with the tools and technologies:Python, VSCode, Ollama, Gemma3</em>
 
 <img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
 <img src="https://img.shields.io/badge/Python-3776AB.svg?style=flat&logo=Python&logoColor=white" alt="Python">
