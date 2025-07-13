@@ -47,6 +47,7 @@ Running-LLM-Models-Locally-For-Free-With-Ollama enables developers to deploy and
 - 🛠️ **🔗 Seamless API Integration:** Interact with the Ollama API through simple scripts, enabling automated and scalable workflows.
 - ⚙️ **🧰 Modular Components:** Core scripts like `test.py` and `package.py` facilitate flexible integration into larger AI systems.
 - 💡 **📚 Developer-Friendly:** Clear setup guides and example code streamline local experimentation and development.
+- 🔬 **🥼 Inspiration Taken From:** https://www.youtube.com/watch?v=UtSSMs6ObqY&t=639s
 
 ---
 
@@ -124,7 +125,7 @@ Running-LLM-Models-Locally-For-Free-With-Ollama enables developers to deploy and
 
 This project requires the following dependencies:
 
-- **Programming Language:** Python
+- **Programming Language:** Python in VS Code 
 - **Package Manager:** Conda
 
 ### ⚙️ Installation
