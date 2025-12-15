@@ -1,0 +1,6 @@
+└── Notion AI Agent Project/
+    ├── README.md #Documentation and Instruction For Project
+    ├── main.py #Code for this project, defines tools and configures AI Agent 
+    └── pyproject.toml #Holds all the dependencies required for the project
+    ├── uv.lock #Resolves Dependencies using UV Packet Manager
+    ├──.env #Environment Variable File with your OPENAI API Key
