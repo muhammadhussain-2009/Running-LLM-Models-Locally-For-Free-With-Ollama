@@ -1,0 +1,16 @@
+[project]
+name = "finetuning-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.3.0",
+    "ollama>=0.6.1",
+    "torch>=2.9.1",
+    "torch-accelerator>=0.0.1",
+    "transformers>=4.57.3",
+    "trl>=0.24.0",
+    "unsloth>=2025.12.7",
+    "unsloth-zoo>=2025.12.6",
+]
