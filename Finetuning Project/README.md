@@ -216,6 +216,7 @@ PRs and improvements welcome. Suggestions:
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
    git clone https://github.com/muhammadhussain-2009/Locally-Hosted-LLM-Projects.git
+   cd Locally-Hosted-LLM-Projects/Finetuning Project 
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -251,5 +252,6 @@ Locally-Hosted-LLM-Projects is protected under the [LICENSE](https://choosealice
 
 
 ---
+
 
 
