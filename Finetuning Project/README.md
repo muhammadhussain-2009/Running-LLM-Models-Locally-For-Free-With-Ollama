@@ -33,7 +33,7 @@ This repository folder contains a compact example showing how to fine-tune Gemma
 
 Use this as a starting point to fine-tune smaller Gemma-3 variants locally (e.g., `unsloth/gemma-3-270m-it`) or adapt it for larger variants if you have adequate hardware.
 
-Reference: Unsloth’s Gemma 3 notes: unsloth.ai/blog/gemma3
+Reference: Unsloth’s Gemma 3 notes: https://unsloth.ai/blog/gemma3
 
 
 ---
@@ -215,7 +215,7 @@ PRs and improvements welcome. Suggestions:
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/muhammadhussain-2009/Running-LLM-Models-Locally-For-Free-With-Ollama.git
+   git clone https://github.com/muhammadhussain-2009/Locally-Hosted-LLM-Projects.git
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -247,8 +247,9 @@ PRs and improvements welcome. Suggestions:
 
 ## License
 
-Running-LLM-Models-Locally-For-Free-With-Ollama/Finetuning Project is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+Locally-Hosted-LLM-Projects is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 
 ---
+
 
