@@ -1,6 +1,6 @@
 # Multi PDFS Chatbot RAG Project — Chat with PDFs (Google Generative AI + FAISS)
 
-A small Retrieval-Augmented Generation (RAG) demo that lets you upload one or more PDF documents, builds an embeddings-based vector index (FAISS) and answers user questions using Google Generative AI (chat + embedding models) via a Streamlit UI.
+A small Retrieval-Augmented Generation (RAG) demo that lets you upload one or more PDF documents, builds an embeddings-based vector index (FAISS) and answers user questions using Google Generative AI [...]
 
 This README explains what the project does, how it works, how to install and run it locally, configuration, troubleshooting tips, and recommended improvements.
 
@@ -21,7 +21,6 @@ Table of contents
 - [Customization & suggestions](#customization--suggestions)
 - [Security and privacy notes](#security-and-privacy-notes)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -37,8 +36,6 @@ This project provides a simple Streamlit web app that:
 6. At query time, performs similarity search and uses a Google chat model to answer questions using retrieved context.
 
 It is intended as a minimal example / starter for building locally-hosted RAG applications that use Google Generative AI (GenAI) models for embeddings and chat.
-
----
 
 ## Features
 
@@ -217,13 +214,13 @@ Workflow in the UI:
     - Use the platform-appropriate wheel if available.
 
 - Model names / API compatibility
-  - Model names used in code: `"models/embedding-001"` and `"models/chat-bison-001"`. These are based on the current codebase and may change with Google SDK updates. If you see "model not found" errors, check the `google-generativeai` SDK docs for the correct model names and update accordingly.
+  - Model names used in code: `"models/embedding-001"` and `"models/chat-bison-001"`. These are based on the current codebase and may change with Google SDK updates. If you see "model not found" error[...]
 
 - Streamlit path with spaces
   - If your path contains spaces (`RAG Project`), wrap the path in quotes when running Streamlit: `streamlit run "RAG Project/ChatBot.py"`
 
 - Import errors (langchain package surface)
-  - If you see import errors like `ModuleNotFoundError` for `langchain_text_splitters` or `langchain_google_genai`, ensure you have the matching `langchain`, `langchain-community`, and `langchain-google-genai` package versions installed. If necessary, consult the upstream packages' docs for the correct import paths — package API may evolve between versions.
+  - If you see import errors like `ModuleNotFoundError` for `langchain_text_splitters` or `langchain_google_genai`, ensure you have the matching `langchain`, `langchain-community`, and `langchain-google-genai` versions installed.
 
 - Zero or irrelevant results from similarity search
   - Ensure the FAISS index is built after uploading and processing PDFs.
