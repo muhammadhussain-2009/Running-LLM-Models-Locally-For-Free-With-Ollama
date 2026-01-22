@@ -9,7 +9,6 @@ Contents
 - Requirements
 - Quick install
 - Running the project with `adk web`
-- Running the project with uvicorn (the "UV" packet manager)
 - Example minimal server (optional)
 - Environment / configuration
 - Contributing
@@ -191,3 +190,4 @@ If you hit a problem not covered above, open an Issue on the repo with:
 
 ---
 Enjoy exploring multi-agent orchestration with Google ADK!
+
